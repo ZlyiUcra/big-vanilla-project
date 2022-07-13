@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {value01_01} from './01/01'
+import {sum} from "./03/03";
 
 let a = value01_01;
 
+const s = sum(1,2)
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
